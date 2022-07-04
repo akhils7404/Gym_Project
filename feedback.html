@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>FeedBack Form </title>
+    <link rel="stylesheet" type="text/css" href="feedback_css.css">
+    <link rel="stylesheet" href="topnav.css">
+    <script src="https://kit.fontawesome.come/67c66657c7.js"></script>
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <h2>Fitness+</h2>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="Gallary.html">Gallary</a>
+        <a href="feedback.html">Feedback</a>
+        
+      </div>
+      <section>
+    <div class="container">
+        <form action="FeedbackConfirm.html" method="post">
+            <h1>Give Your Feedback</h1>
+            <div class="id">
+                <input type="text" placeholder="Full name" pattern="[A-Za-z]+" minlength="3" maxlength="25" required>
+                <i class="far fa-user"></i>
+            </div>
+                <div class="id">
+                    <input type="email" placeholder="Email adress" required>
+                    <i class="far fa-envelope"></i>
+                   
+            </div>
+            <textarea cols="30" rows="10" placeholder="Enter Your Opinions Here....." required></textarea>
+            <input type="submit" value="Send" class="sbtn">
+        </form>
+    </div>
+</section>
+    
+</body>
+</html>

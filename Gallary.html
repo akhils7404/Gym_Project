@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+	<title>My Gallary</title>
+  <link rel="stylesheet" href="topnav.css">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fuzzy+Bubbles&family=Hubballi&family=Permanent+Marker&family=Quicksand:wght@300&family=Rajdhani&family=Rowdies:wght@300&display=swap');
+.gallery {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  grid-template-rows: auto;
+}
+body{
+  margin: 0;
+  background-image: linear-gradient(45deg, tomato, yellow, goldenrod)
+}
+figure img {
+  border-radius: 10px;
+  width: 100%;
+}
+header{
+  background-color: white;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,.6);
+}
+header h1{
+  margin: 0;
+  font-family: permanent marker;
+  letter-spacing: 4px;
+  font-size: 3em;
+  padding: 0;
+}
+header p{
+  font-family: fuzzy bubbles;
+  padding-bottom: 5px;
+}
+figure{
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: 0.4s;
+}
+.fig1{
+  background-image: url(img/1.jpg);
+}
+.fig2{
+  background-image: url(img/2.jpg);
+}
+.fig3{
+  background-image: url(img/3.jpg);
+}
+.fig4{
+  background-image: url(img/4.jpg);
+}
+.fig5{
+  background-image: url(img/5.jpg);
+}
+.fig6{
+  background-image: url(img/6.jpg);
+}
+figcaption{
+  width: 100%;
+  background-color: rgba(24, 184, 209, .5);
+  transform: scale(1, 0);
+  height: 100%;
+  transition: 0.4s;
+  display: flex;
+  transform-origin: top;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+}
+figure:hover figcaption{
+  transform: scale(1, 1);
+}
+figcaption span{
+  font-family: fuzzy bubbles;
+  font-size: 2em;
+}
+figure:hover{
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 0 30px rgba(0,0,0,.6);
+}
+figure figcaption :not(span){
+  font-family: rajdhani;
+  font-size: 1.3em;
+}
+
+
+</style>
+</head>
+<body>
+  
+
+    <div class="topnav" id="myTopnav">
+      <h2>Fitness+</h2>
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="Gallary.html">Gallery</a>
+      <a href="feedback.html">Feedback</a>
+      
+    </div>
+  
+  <p>Find your Trainers!</p>
+</header>
+<div class="gallery">
+  <figure class="fig1">
+    <figcaption>
+      <div><span>Treadmills</span> </figcaption>
+  </figure>
+
+  <figure class="fig2">
+    <figcaption><div><span>Dumbbells</span> </figcaption>
+  </figure>
+
+  <figure class="fig3">
+    <figcaption><div><span>Bar</span> </figcaption>
+  </figure>
+
+  <figure class="fig4">
+    <figcaption><div>
+      <span>Sport Ground</span></figcaption>
+  </figure>
+  
+    <figure class="fig5">
+    <figcaption><div><span>Trainers</span></figcaption>
+  </figure>
+  
+   <figure class="fig6">
+     <figcaption><div><span>Heavy Weight</span></figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:5px;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.topnav {
+  background-color:white;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  color: red;
+}
+
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav h2{
+  float: right;
+  padding: 13px;
+  font-size: 25px;
+}

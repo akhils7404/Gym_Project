@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Join us</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fuzzy+Bubbles&family=Hubballi&family=Permanent+Marker&family=Quicksand:wght@300&family=Rajdhani&family=Rowdies:wght@300&display=swap');
+.member {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  grid-template-rows: auto;
+}
+body{
+  margin: 0;
+  background-image: linear-gradient(45deg, pink, lightblue, pink)
+}
+figure img {
+  border-radius: 10px;
+  width: 100%;
+}
+header{
+  background-color: white;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,.6);
+}
+header h1{
+    background-color: white;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,.6);
+}
+figure{
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: 0.4s;
+}
+.fig1{
+  background-image: url(img/pro2.jpg);
+}
+.fig2{
+  background-image: url(img/joinus4.jpg);
+}
+figcaption{
+  width: 100%;
+  background-color: rgba(24, 184, 209, .5);
+  transform: scale(1, 0);
+  height: 100%;
+  transition: 0.4s;
+  display: flex;
+  transform-origin: top;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+}
+figure:hover figcaption{
+  transform: scale(1, 1);
+}
+figcaption span{
+  font-family: fuzzy bubbles;
+  font-size: 2em;
+}
+figure:hover{
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 0 30px rgba(0,0,0,.6);
+}
+figure figcaption :not(span){
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1em;
+}
+	</style>
+</head>
+<body>
+	<header>
+        <h1><em>MEMBERSHIP PASSES</em></h1>
+      </header>
+<div class="member">
+  <figure class="fig1">
+    <figcaption>
+      <a href="Premiummembership.html"><div><span>Premium Membership</span></a>
+     </figcaption>
+  </figure>
+
+  <br><figure class="fig2">
+    <figcaption>
+        <a href="FreeMembershipform.html"><div><span>Free Membership</span></a>
+        </figcaption>
+  </figure>
+  <br><h2>Benefits of Premium Membership</h2>
+  <h3>1)Will provide a mentor for each individual where one can interact with them on regular basis.
+      <br>2)Access to fitness club videos which has healthy and convenient diets and extra workout challenges.</h3>
+</div>
+</body>
+</html>
